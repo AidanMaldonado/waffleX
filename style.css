@@ -1,0 +1,89 @@
+/*
+Primary Color: #3292a6
+Primary Overlay: rgba(50, 146, 166, 0.8);
+*/
+
+body {
+  margin-top: 100px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+.corner {
+  border-radius: 20%;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 400px;
+  height: 400px;
+}
+
+#showcase {
+  position: relative;
+  background: url('images/nasa.jpg');
+  background-size: cover;
+  min-height: 600px;
+}
+
+.primary-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border-color: #3292a6;
+}
+
+.card-bg,
+.color-primary {
+  background-color: #3292a6;
+}
+
+.color-primary {
+  color: #3292a6;
+}
+
+.btn-primary {
+  background-color: #3292a6;
+  border-color: #3292a6;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+.fab {
+  color: #3292a6;
+  font-size: 25px;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+
+.card-author:hover {
+  background: #3292a6;
+  color: #fff;
+}
+
+.card-author:hover .fab {
+  color: #fff;
+}
+
+.b-logo {
+  margin-left: 20px;
+}
